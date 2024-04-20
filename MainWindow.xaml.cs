@@ -20,6 +20,12 @@ namespace Prog122_S24_L2_Notes
         {
             InitializeComponent();
         }
-            string userName = NameTextBox.Text;
+
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+            string userName = ((TextBox)NameTextBox).Text;
+            MessageBox.Show($"Hello, {userName}!");
+        }
     }
 }
