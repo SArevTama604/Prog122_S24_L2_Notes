@@ -6,7 +6,6 @@
         xmlns:local="clr-namespace:Prog122_S24_L2_Notes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvis>
 
-    </Grid>
 </Window>

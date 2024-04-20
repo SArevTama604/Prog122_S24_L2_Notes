@@ -20,5 +20,6 @@ namespace Prog122_S24_L2_Notes
         {
             InitializeComponent();
         }
+            string userName = NameTextBox.Text;
     }
 }
